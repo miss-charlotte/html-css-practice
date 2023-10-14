@@ -1,0 +1,325 @@
+body {
+    
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* utilty class */
+.container {
+    max-width: 1536px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+/* media queries for different screens */
+/* 2xl */
+@media (max-width: 1536px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+/* lg */
+@media (max-width: 1280px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+/* md */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .button3 {
+        position: absolute;
+        top: 125px;
+        left: 285px;
+    }
+    
+    
+}
+/* sm */
+@media (max-width: 768px) {
+    .container {
+        max-width: 475px;
+    }
+
+    .button3 {
+        left: 145px;
+    }
+
+    .next-slide {
+        flex-direction: column;
+    }
+}
+
+/* xs */
+@media (max-width: 475px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+.button {
+    border-radius: 9px;
+    width: 105px;
+    height: 48px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    background-color: rgb(53, 255, 69);
+    border: none;
+    font-size: 15px;
+}
+
+.first-slide {
+    background-color: rgb(255, 245, 231);
+}
+
+/* navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+.nav-logo {
+    margin-top: -15px;
+    font-weight: 700;
+}
+
+.nav-menu {
+    list-style: none;
+}
+
+li {
+    float: left;
+    margin: 20px;
+    font-weight: 600;
+}
+
+.nav-menu-list .button1 {
+    margin-top: -15px;
+}
+
+/* card */
+.card {
+    border-radius: 16px;
+    height: 500px;
+    width: 100%;
+    background-color: rgb(29, 29, 29);
+    margin-top: -10px;
+    display: flex;
+}
+
+.text-column {
+    float: left;
+    width: 55%;
+}
+
+.card-text {
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 140px;
+    left: 75px;
+}
+
+.text-heading-1 {
+    opacity: 60%;
+}
+
+.text-heading-2 {
+    margin-top: -10px;
+}
+
+.button2 {
+    margin-top: 25px;
+    width: 130px;
+    margin-right: 55px;
+    font-size: 16px;
+}
+
+.items {
+    display: inline-flex;
+}
+
+.video-sign {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.video-logo {
+    background-color: #fff;
+    border-radius: 8px;
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
+}
+
+.video-logo img {
+    padding: 7px;
+}
+
+
+/* survey intro */
+.survey-intro {
+    position: relative;
+    margin-top: 40px;
+}
+
+.text-heading-3 {
+    opacity: 60%;
+}
+
+.survey-items {
+    display: flex;
+}
+
+.survey-items p {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: -10px;
+}
+
+.underline {
+    text-decoration: underline  rgb(53, 255, 69) 3px;
+    
+}
+
+.button3 {
+    width: 175px;
+    position: absolute;
+    right: 0px;
+    margin-top: -15px;
+}
+
+/* next slide */
+.next-slide {
+    background-color: #fff;
+    height: 550px;
+    margin-top: 78px;
+}
+
+.cards-column {
+    float: left;
+    width: 55%;
+    display: flex;
+    margin-top:40px;
+}
+
+.cards {
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px  ;
+    grid-template-columns: 100px 100px 100px 100px ;
+    grid-gap: 8em 5em;
+}
+
+.card1 {
+    grid-area: 1 / 2 / 2 / 4;
+    z-index: 1;
+}
+
+.card2 {
+    grid-area: 1 / 1 / 3/ 4;
+}
+
+.card3 {
+    grid-area:  2/ 2 / 3 / 4;
+}
+
+.text2-column {
+    float: right;
+    margin-top: 40px;
+    width: 45%;
+    display: flex;
+}
+
+.text-heading-4 {
+    margin-top: -5px;
+    display: flex;
+}
+
+.cons {
+    list-style: none;
+    margin-left: -60px;
+    counter-reset: item;
+    
+}
+
+.cons-items {
+    margin-top: 40px;
+
+}
+
+.underline2 {
+    margin-top: 60px;
+    display: block;
+    margin-left: 20px;
+}
+
+.button4 {
+    width: 195px;
+    margin-top: 110px;
+    display: block;
+}
+
+.third-slide {
+    background-color: #ffffff;
+    height: 450px;
+}
+
+.text3-column {
+    float: left;
+    width: 50%;
+}
+
+.column3-text {
+    margin-top: -238px;
+}
+
+.text-heading-5 {
+    opacity: 60%;
+}
+
+.button5 {
+    margin-top: 28px;
+    width: 195px;
+}
+
+.cards2-column {
+    float: right;
+    margin-top: -209px;
+    width: 45%;
+    display: flex;
+}
+
+.cards2 {
+    display: grid;
+    grid-template-rows: 100px 100px 100px ;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 8em 5em;
+}
+
+.card4 {
+    grid-area: 1 / 1 / 2/ 2;
+    z-index: 1;
+}
+
+.card5 {
+    grid-area:  1/ 2 / 3 / 3;
+}
+
